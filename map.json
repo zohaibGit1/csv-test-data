@@ -1,0 +1,33 @@
+{
+  "spreadsheet_url": "https://docs.google.com/spreadsheets/d/1lSZVyTMhSPnvM2Y1cwgothupxXl8xgHyXjX44TDkt7k/edit",
+
+  "datasets": [
+    {
+      "name": "sales",
+      "worksheet": "Sales",
+      "id_column": "sale_id",
+      "csv_urls": [
+            "https://raw.githubusercontent.com/zohaibGit1/csv-test-data/main/sales_week1.csv",
+            "https://raw.githubusercontent.com/zohaibGit1/csv-test-data/main/sales_week2.csv"
+        ]
+    },
+
+    {
+      "name": "purchase",
+      "worksheet": "Purchase",
+      "id_column": "purchase_id",
+      "csv_urls": [
+        "https://raw.githubusercontent.com/zohaibGit1/csv-test-data/main/purchase_week1.csv",
+        "https://raw.githubusercontent.com/zohaibGit1/csv-test-data/main/purchase_week2.csv"
+        ]
+    },
+    {
+      "name": "Job-Cart",
+      "worksheet": "JC",
+      "id_column": "JC #",
+      "csv_urls": [
+        "https://raw.githubusercontent.com/zohaibGit1/csv-test-data/main/JC.csv"
+        ]
+    }
+  ]
+}
